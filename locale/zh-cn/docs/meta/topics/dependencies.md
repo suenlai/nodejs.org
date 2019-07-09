@@ -35,7 +35,7 @@ V8 类库为 Node.js 提供了 JavaScript引擎，Node.js 通过 V8 C++ 的 API 
 
 ### http-parser
 
-HTTP 解析是通过一个由 C 语言编写、轻量级称作 http-parser 的类库进行的。由于它的设计不会引发系统调用和系统资源分配，因而它的预请求内存痕迹极小。
+HTTP 解析是通过一个由 C 语言编写、轻量级称作 http-parser 的类库进行的。由于它的设计不会引发系统调用和系统资源分配，因而它的预请求内存占用空间极小。
 
 - [相关文档](https://github.com/joyent/http-parser/)
 
